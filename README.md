@@ -4,7 +4,7 @@
   
 ### 🎥 Demo
 
-https://github.com/user-attachments/assets/s77a8Rqf5BpCoxT_mp4_a6EmyqBG.mp4
+https://github.com/user-attachments/assets/244b5d4e-4fd6-4f2a-807c-6e84fd6edc43
 
 *Ứng dụng gọi video realtime sử dụng WebRTC và Socket.io*
 
