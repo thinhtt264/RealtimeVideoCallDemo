@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "293527474935",
+    "project_id": "kakatalk-ce8c3",
+    "storage_bucket": "kakatalk-ce8c3.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:293527474935:android:964f0e25a9414bdabfb9f2",
+        "android_client_info": {
+          "package_name": "com.thinh.kakatalkandroid"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZEhR9c_178Ij1F__wcK_Sfu9ZPh0bRJ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

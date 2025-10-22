@@ -1,0 +1,33 @@
+# EXAMPLE USAGE:
+#
+#   Refer for explanation to following link:
+#   https://lefthook.dev/configuration/
+#
+
+commit-msg:
+  parallel: true
+  commands:
+    commitlint:
+      run: npx commitlint --edit
+
+# pre-push:
+#   jobs:
+#     - name: packages audit
+#       tags:
+#         - frontend
+#         - security
+#       run: yarn audit
+#
+#     - name: gems audit
+#       tags:
+#         - backend
+#         - security
+#       run: bundle audit
+#
+pre-commit:
+  parallel: true
+  jobs:
+    - run: yarn tsc --noEmit
+      glob: "*.{ts,tsx}"
+    - run: yarn eslint {staged_files}
+      glob: "*.{js,ts,jsx,tsx}"
